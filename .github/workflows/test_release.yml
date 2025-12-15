@@ -19,7 +19,7 @@ on:
           或者使用 "all" 来编译所有内核.
         required: true
         type: string
-        default: 'all'
+        default: 'a14-6.1'
       kernelsu_variant:
         # description: "选择 KernelSU | 注意:选中MKSU时为标准版"
         description: "选择 KernelSU"
